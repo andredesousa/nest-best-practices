@@ -1,5 +1,7 @@
 # Nest Best Practices
 
+Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications. These tips are based on Nest documentation, books, articles and professional experience.
+
 ## Table of Contents
 
 1. [Follow code conventions](#follow-code-conventions)
@@ -288,3 +290,20 @@ The [@nestjs/testing](https://www.npmjs.com/package/@nestjs/testing) package pro
 Nest also allows you to define a mock factory to apply to all of your missing dependencies.
 This is useful for cases where you have a large number of dependencies in a class and mocking all of them will take a long time and a lot of setups.
 To perform e2e testing you use a similar setup to unit testing.
+
+## Bibliography
+
+- [5 NestJS Techniques to Build Efficient and Maintainable Apps](https://betterprogramming.pub/5-nestjs-techniques-to-build-efficient-and-maintainable-apps-be6bc77e789e)
+- [10 NestJS Best Practices](https://climbtheladder.com/10-nestjs-best-practices/)
+- [10 NestJS Folder Structure Best Practices](https://climbtheladder.com/10-nestjs-folder-structure-best-practices/)
+- [Best practices for Nest.js](https://proxify.io/articles/best-practices-in-building-secure-authentication-and-authorization-systems-in-nestjs)
+- [Best Way to Structure Your Directory/Code (NestJS)](https://medium.com/the-crowdlinker-chronicle/best-way-to-structure-your-directory-code-nestjs-a06c7a641401)
+- [Docker + NestJS. Step by step guide](https://blog.devops.dev/dockerizing-nestjs-application-a5240c86c3a0)
+- [DTO explained in NestJS](https://medium.com/@yelinliu/dto-explained-in-nestjs-3a296498d77b)
+- [Error Handling and Logging in NestJS](https://levelup.gitconnected.com/error-handling-and-logging-in-nestjs-best-practices-ecc871ade7d7)
+- [Errors as metrics in NestJS](https://blog.devops.dev/errors-as-metrics-in-nestjs-23e791a2df9e)
+- [Health checks (Terminus)](https://docs.nestjs.com/recipes/terminus)
+- [How to Use Exception Filters to Catch Bugs in Nest.js](https://www.freecodecamp.org/news/exception-filters-in-nestjs/)
+- [Migrations with TypeORM in NestJs](https://www.oneclickitsolution.com/blog/migrations-with-typeorm/)
+- [NestJS - 11 Popular NPM Packages](https://javascript.plainenglish.io/nestjs-11-popular-npm-packages-53451d32f44b)
+- [Testing NestJS Apps: Best Practices & Common Pitfalls](https://amplication.com/blog/best-practices-and-common-pitfalls-when-testing-my-nestjs-app)
