@@ -1,6 +1,7 @@
 # Nest Best Practices
 
-Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications. These tips are based on Nest documentation, books, articles and professional experience.
+Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
+These tips are based on Nest documentation, books, articles and professional experience.
 
 ## Table of Contents
 
@@ -46,11 +47,11 @@ Modules provide a logical way to group your code and keep your project organized
 When you have all the files related in one folder, it makes it easier for developers to find what they need.
 You can use the following naming convention for your modules:
 
-- The `entity` module contains the database entities of the application.
+- The `entities` module contains the database entities of the application.
 - The `services` module contains all the business logic-related classes.
 - The `controllers` module contains all resources classes of the application.
 - The `dtos` module contains all the Data Transfer Objects of the application
-- Other common modules are `config`, `pipes`, `exception`, etc.
+- Other common modules are `configs`, `pipes`, `exceptions`, etc.
 
 This style is very convenient in small-size microservices.
 If you are working on a huge code base, a feature-based approach can be used.
